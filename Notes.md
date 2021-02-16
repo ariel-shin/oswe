@@ -1,8 +1,8 @@
 # Summary
-* [Searching](##Searching)
-* [RCE](##RCE)
-* [PHP](##PHP)
-* [MySQL](##MySQL)
+* [Searching](#Searching)
+* [RCE](#RCE)
+* [PHP](#PHP)
+* [MySQL](#MySQL)
 
 ## Searching
 * Looking for a specific file
