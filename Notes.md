@@ -10,7 +10,7 @@ $ sudo vi /etc/php5/apache2/php.ini
 display_errors = On
 
 // Restart the apache service 
-sudo systemctl restart apache2
+$ sudo systemctl restart apache2
 ```
 
 ### PHP Shells
