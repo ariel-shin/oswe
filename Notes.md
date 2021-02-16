@@ -1,6 +1,31 @@
 # Summary
+* [Searching](##Searching)
+* [RCE](##RCE)
 * [PHP](##PHP)
 * [MySQL](##MySQL)
+
+## Searching
+* Looking for a specific file
+``` 
+sudo find / -name "specificfile.txt"
+```
+* grep 
+	* -r: recursive
+	* -n: number
+	* -i: ignore case
+
+## RCE
+Some notes about Remote Code Execution
+
+### File Upload
+Some considerations when trying to gain RCE through File Upload
+1. Use the victim box to look for the file that was uploaded
+```
+sudo find / -name "uploadedfile.txt"
+```
+2. Find the web root by triggering information disclosure
+3. Try to upload file to tmp directory then web root
+4. Bypass file extension filter 
 
 ## PHP
 * Turn on logging
