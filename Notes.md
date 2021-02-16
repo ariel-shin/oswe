@@ -14,6 +14,8 @@ sudo find / -name "specificfile.txt"
 	* -n: number
 	* -i: ignore case
 
+[Back](#summary)
+
 ## RCE
 Some notes about Remote Code Execution
 
@@ -26,6 +28,8 @@ sudo find / -name "uploadedfile.txt"
 2. Find the web root by triggering information disclosure
 3. Try to upload file to tmp directory then web root
 4. Bypass file extension filter 
+
+[Back](#summary)
 
 ## PHP
 * Turn on logging
@@ -64,6 +68,8 @@ $ php -f phpshell.php
 * Try a different shell
 * Confirm OS (Linux or Windows)
 
+[Back](#summary)
+
 ## MySQL
 * Turn on logging
 ```
@@ -98,3 +104,5 @@ mysql> show tables;
 mysql> describe [table_name];
 mysql> select [table_column] from [database_name].[table_name] LIMIT 0,1;
 ```
+
+[Back](#summary)
