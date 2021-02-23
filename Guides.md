@@ -1,4 +1,6 @@
 ## Guides
+* [Super Detailed Review](https://stacktrac3.co/oswe-review-awae-course/)
+* [OWASP Code Review Guide: Methodology](https://owasp.org/www-pdf-archive/OWASP_Code_Review_Guide_v2.pdf)
 * [HTB Exam Review & Extra Studying](https://forum.hackthebox.eu/discussion/2646/oswe-exam-review-2020-notes-gifts-inside)
 * [ch1kpee Review](https://ch1kpee.com/)
 * [AWAE Prep](https://github.com/wetw0rk/AWAE-PREP)
